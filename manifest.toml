@@ -1,0 +1,31 @@
+[plugin]
+name = "scalars-br"
+namespace = "@plugin/scalars-br"
+
+[[semantic_types]]
+name = "BrazilianCPF"
+alias = "@semantic.BrazilianCPF"
+carrier_type = "String"
+validator = "ValidateCPF"
+formatter = "FormatCPF"
+
+[[semantic_types]]
+name = "BrazilianCNPJ"
+alias = "@semantic.BrazilianCNPJ"
+carrier_type = "String"
+validator = "ValidateCNPJ"
+formatter = "FormatCNPJ"
+
+[[semantic_types]]
+name = "BrazilianCEP"
+alias = "@semantic.BrazilianCEP"
+carrier_type = "String"
+validator = "ValidateCEP"
+formatter = "FormatCEP"
+
+[[semantic_types]]
+name = "BrazilianPhone"
+alias = "@semantic.BrazilianPhone"
+carrier_type = "String"
+validator = "ValidatePhone"
+formatter = "FormatPhone"
