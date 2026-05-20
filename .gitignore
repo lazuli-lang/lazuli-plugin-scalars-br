@@ -4,6 +4,10 @@
 *.prof
 *.out
 /vendor/
+dist/
+
+# Node / TS build artifacts
+node_modules/
 
 # IDE / OS
 .vscode/
