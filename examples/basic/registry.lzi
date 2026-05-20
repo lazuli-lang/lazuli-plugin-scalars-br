@@ -1,0 +1,14 @@
+# Minimal pilot for @plugin/scalars-br. Demonstrates the binding shape;
+# pair with the env vars listed in this plugin's manifest.toml.
+
+registry
+  env
+    group scalars_br
+      # No env vars required; pure semantic validation.
+
+  capabilities
+    integration scalars_br
+
+  bindings
+    scalars_br: SemanticCarrier
+      adapter @plugin/scalars-br
